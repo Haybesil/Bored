@@ -61,6 +61,7 @@ button {
 
     div.button {
         flex-direction: column;
+        left: 25px;
     }
 
     button {
