@@ -12,7 +12,7 @@ async function callThisApi () {
              let response  = await request.text(); 
 
 
-              let rest = response.substring(0, response.indexOf('type')).replace(/["{}]/g, '').replace('activity:', 'Activity: ');
+              let rest = response.substring(0, response.indexOf(',')).replace(/["{}]/g, '').replace('activity:', 'Activity: ');
 
 
              inputField.innerHTML = rest;
