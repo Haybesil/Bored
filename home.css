@@ -52,7 +52,7 @@ button {
 @media (max-width: 900px) {
     div p {
         /* display: inline-block; */
-        font-size: 40px;
+        font-size: 30px;
         margin-inline: -8vw;
         color: rgb(14, 13, 75);
         background-color: rgb(16, 204, 163);
