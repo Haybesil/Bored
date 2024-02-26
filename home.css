@@ -9,7 +9,6 @@ body {
 }
 
 div.activities {
-    /* display: inline-block; */
     align-items: center;
     padding-top: 0px;
     position: absolute;
@@ -21,7 +20,6 @@ div.activities {
 }
 
 div p {
-    /* display: inline-block; */
     font-size: 56px;
     margin-inline: 3vw;
     color: rgb(16, 204, 163);
@@ -40,6 +38,7 @@ div.button {
 }
 
 button {
+    font-size: 30px;
     font-family: sans-serif;
     font-weight: 600;
     color: #fff;
@@ -52,21 +51,21 @@ button {
 
 @media (max-width: 900px) {
     div p {
-        /* display: inline-block; */
         font-size: 30px;
         margin-inline: -8vw;
         color: rgb(14, 13, 75);
-        background-color: rgb(16, 204, 163);
-        padding: 10px;
+        background-color: rgb(16, 204, 163); 
     }
 
     div.button {
         flex-direction: column;
-        left: 30px;
+        left: 25%;
+        
     }
 
     button {
+        font-size: 15px;
         margin-top: 10px;
-        padding: 15px 25px;
+        padding: 20px 30px;
     }
 }
