@@ -29,5 +29,5 @@ callThisApi();
 
 function goToHomePage() {
        // Change the URL to the desired next page
-       window.location.href = "home.html";
+       window.location.href = "index.html";
      }

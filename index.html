@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     
-    <div class="activities">
-        <p class="input"></p>
-    </div>
+    <h1>Are you bored?</h1>
+    <p>Click here to see list of activities to keep you busy</p>
 
-    <div class="button">
+    <button onclick="goToNextPage()">Click</button>
 
-         <button class="btn" onclick="callThisApi ()">Click for activities </button>
-
-         <button onclick="goToHomePage()">See you again</button>
-    </div>
-
-    <script src="script.js"></script>
+    <script>
+        function goToNextPage() {
+          // Change the URL to the desired next page
+          window.location.href = "home.html";
+        }
+      </script>
 </body>
 </html>

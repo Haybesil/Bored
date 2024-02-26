@@ -1,19 +1,41 @@
+
+
 body {
-    background-image: url(/images/Bored.jpg);
+    background-image: url(/images/Excited.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
-    margin-top: 15%;
 }
 
-h1 {
-    font-size: 55px;
+div.activities {
+    /* display: inline-block; */
+    align-items: center;
+    padding-top: 0px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-    font-size: 30px;
+div p {
+    /* display: inline-block; */
+    font-size: 56px;
+    margin-inline: 3vw;
+    color: rgb(16, 204, 163);
+    background-color: rgb(14, 13, 75);
+    padding: 10px;
+}
+
+div.button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 
 button {
@@ -25,4 +47,19 @@ button {
     padding: 10px 20px;
     margin-top: 30px;
     border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    div p {
+        /* display: inline-block; */
+        font-size: 40px;
+        margin-inline: -8vw;
+        color: rgb(14, 13, 75);
+        background-color: rgb(16, 204, 163);
+        padding: 10px;
+    }
+
+    div.button {
+        flex-direction: column;
+    }
 }
